@@ -1,0 +1,45 @@
+body{
+    background-image: url(./photo-1531297484001-80022131f5a1.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.link a{
+            text-decoration: none;
+            color: white;
+
+
+            
+} 
+
+ul li{
+    list-style-type: none;
+    display: inline;
+    margin-left: 50px;
+  
+}
+.link{
+    background-image: url(./photo-1553095066-5014bc7b7f2d.avif);
+    height: 40px;
+}
+.link a:hover{
+    color: red;
+    font-weight: bold;
+}
+
+form{
+    margin: 50px;
+    padding: 10px;
+    border: 1px solid black;
+    width: 180px;
+    height: 220px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(41, 39, 39);
+    box-shadow: -13px -13px 20px rgb(24, 9, 9)
+    ;
+}
+button{
+    margin-left: 50px;
+    margin-top: 10px;
+}
