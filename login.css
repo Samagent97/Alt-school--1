@@ -1,20 +1,18 @@
-.links li{
-    display: inline-block;
+.links li {
+  display: inline-block;
 }
-
 li a {
-    text-decoration: none;
+  text-decoration: none;
 }
-
-.links, a {
-    float: right;
-    margin-right: 28px;
-    margin-top: -5;
-    color: white;
+.links,
+a {
+  float: right;
+  margin-right: 28px;
+  margin-top: -5;
+  color: white;
 }
-
-a:hover{
-    color: green;
+a:hover {
+  color: green;
 }
 body {
   background-color: #9f9da7;
@@ -22,16 +20,13 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #2b3e51;
 }
-
 h2 {
   font-weight: 300;
   text-align: center;
 }
-
 p {
   position: relative;
 }
-
 a,
 a:link,
 a:visited,
@@ -40,7 +35,8 @@ a:active {
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
 }
-a:focus, a:hover,
+a:focus,
+a:hover,
 a:link:focus,
 a:link:hover,
 a:visited:focus,
@@ -51,7 +47,6 @@ a:active:hover {
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
 }
-
 #login-form-wrap {
   background-color: #fff;
   width: 35%;
@@ -61,11 +56,9 @@ a:active:hover {
   border-radius: 4px;
   box-shadow: 0px 30px 50px 0px rgba(0, 0, 0, 0.2);
 }
-
 #login-form {
   padding: 0 60px;
 }
-
 input {
   display: block;
   box-sizing: border-box;
@@ -75,7 +68,6 @@ input {
   line-height: 60px;
   border-radius: 4px;
 }
-
 input[type="text"],
 input[type="email"] {
   width: 100%;
@@ -86,8 +78,8 @@ input[type="email"] {
   font-style: normal;
   font-size: 16px;
   -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
+  -moz-appearance: none;
+  appearance: none;
   position: relative;
   display: inline-block;
   background: none;
@@ -104,11 +96,11 @@ input[type="email"]:focus:invalid {
 input[type="text"]:valid ~ .validation,
 input[type="email"]:valid ~ .validation {
   display: block;
-  border-color: #0C0;
+  border-color: #0c0;
 }
 input[type="text"]:valid ~ .validation span,
 input[type="email"]:valid ~ .validation span {
-  background: #0C0;
+  background: #0c0;
   position: absolute;
   border-radius: 6px;
 }
@@ -119,7 +111,7 @@ input[type="email"]:valid ~ .validation span:first-child {
   width: 20px;
   height: 3px;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 input[type="text"]:valid ~ .validation span:last-child,
 input[type="email"]:valid ~ .validation span:last-child {
@@ -128,9 +120,8 @@ input[type="email"]:valid ~ .validation span:last-child {
   width: 11px;
   height: 3px;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
-
 .validation {
   display: none;
   position: absolute;
@@ -140,7 +131,6 @@ input[type="email"]:valid ~ .validation span:last-child {
   right: 15px;
   top: 0px;
 }
-
 input[type="submit"] {
   border: none;
   display: block;
@@ -162,7 +152,6 @@ input[type="submit"]:hover {
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
 }
-
 #create-account-wrap {
   background-color: #eeedf1;
   color: #8a8b8e;
