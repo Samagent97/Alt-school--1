@@ -3,15 +3,10 @@ body{
     background-repeat: no-repeat;
     background-size: 100%;
 }
-
-
 * {
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
 }
-
-}
-
 .links li{
     display: inline-block;
 }
@@ -19,28 +14,22 @@ body{
 li a {
     text-decoration: none;
 }
-
 .links, a {
     float: right;
     margin-right: 28px;
     margin-top: -5;
     color: white;
 }
-
 a:hover{
     color: green;
 }
-
-
 body {
   background: #EAEBEC;
 }
-
 .container {
   width: 400px;
   margin: auto;
 }
-
 .calc-body {
   width: 275px;
   margin: auto;
@@ -48,14 +37,12 @@ body {
   border: solid 1px #3A4655;
   box-shadow: 0 8px 50px -7px black;
 }
-
 .calc-screen {
   background: #3A4655;
   width: 100%;
   height: 150px;
   padding: 20px;
 }
-
 .calc-operation {
   text-align: right;
   color: #727B86;
@@ -63,19 +50,16 @@ body {
   padding-bottom: 10px;
   border-bottom: dotted 1px;
 }
-
 .calc-typed {
   margin-top: 20px;
   font-size: 45px;
   text-align: right;
   color: #fff;
 }
-
 .calc-button-row {
   width: 100%;
   background: #3C4857;
 }
-
 .button {
   width: 25%;
   background: #425062;
@@ -90,7 +74,6 @@ body {
   border-bottom: solid 2px #3C4857;
   transition: all 0.2s ease-in-out;
 }
-
 .button.l {
   color: #AEB3BA;
   background: #404D5E;
